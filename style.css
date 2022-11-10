@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'sans-serif';
+}
+.small-container{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-product{
+    margin-top: 80px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-product .col-2 img{
+    padding: 4px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.single-product .col-2{
+    padding: 20px;
+}
+.button{
+    display: inline-block; 
+    background: goldenrod;
+    color: #fff;
+    padding: 9px 20px;
+    margin: 23px 0;
+    border-radius: 9px;
+    transition: background 0.5s;
+    cursor: pointer;
+    border: none;
+    font-size: small;
+}
+.header-avatar img {
+    height: 30px;
+   
+}
+.button:hover{
+    background: #563443;
+}
+.button__icon{
+   margin-left: 5%;
+}
+h6{
+    color: chocolate;
+}
+
+.percent h6{
+  font-size: small;
+}
+.navbar-brand{
+    font-size: small;
+}
